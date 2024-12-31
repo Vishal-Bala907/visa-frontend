@@ -1,4 +1,5 @@
 import FooterOne from "@/components/layout/footers/FooterOne";
+import FooterTwo from "@/components/layout/footers/FooterTwo";
 import Header1 from "@/components/layout/header/Header1";
 import Header9 from "@/components/layout/header/Header9";
 import Login from "@/components/pages/Login";
@@ -15,7 +16,7 @@ export default function page() {
       <main>
         <Header9 />
         <Login />
-        <FooterOne />
+        <FooterTwo />
       </main>
     </>
   );

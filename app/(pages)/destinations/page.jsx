@@ -1,8 +1,8 @@
 import ArticlesOne from "@/components/homes/articles/ArticlesOne";
 import SpacialOffer from "@/components/homes/others/SpacialOffer";
 import TestimonialOne from "@/components/homes/testimonials/TestimonialOne";
-import FooterOne from "@/components/layout/footers/FooterOne";
-import Header1 from "@/components/layout/header/Header1";
+import FooterTwo from "@/components/layout/footers/FooterTwo";
+import Header2 from "@/components/layout/header/Header2";
 import Hero from "@/components/pages/destinations/Hero";
 import Information from "@/components/pages/destinations/Information";
 import TourList1 from "@/components/pages/destinations/TourList";
@@ -18,15 +18,15 @@ export default function page() {
   return (
     <>
       <main>
-        <Header1 />
+        <Header2 />
         <Hero />
-        <SpacialOffer />
+        {/* <SpacialOffer /> */}
         <TourSlider />
         <TourList1 />
         <TestimonialOne />
-        <Information />
-        <ArticlesOne />
-        <FooterOne />
+        {/* <Information /> */}
+        {/* <ArticlesOne /> */}
+        <FooterTwo />
       </main>
     </>
   );

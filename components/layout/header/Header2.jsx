@@ -32,7 +32,7 @@ export default function Header2() {
               <Image
                 width="167"
                 height="32"
-                src="/img/general/logo-1.svg"
+                src="/img/general/logo.png"
                 alt="logo icon"
                 priority
               />

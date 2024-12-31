@@ -14,7 +14,7 @@ export default function Login() {
     e.preventDefault();
     loginHandler(login)
       .then((data) => {
-        console.log(data);
+        localStorage.setItem("token", data);
       })
       .catch((err) => {
         console.log(err);

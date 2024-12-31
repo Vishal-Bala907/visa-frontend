@@ -1,11 +1,4 @@
-export const toursTypes = [
-  "Nature Tours",
-  "Adventure Tours",
-  "Cultural Tours",
-  "Food Tours",
-  "City Tours",
-  "Cruises Tours",
-];
+export const toursTypes = ["Types of visa", "Documents", "Process", "FAQs"];
 
 export const durations = [
   "0-3 hours",

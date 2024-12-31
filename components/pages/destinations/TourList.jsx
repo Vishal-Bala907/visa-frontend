@@ -36,11 +36,11 @@ export default function TourList1() {
         <div className="row y-gap-10 justify-between items-end y-gap-10 mb-50 ">
           <div className="col-auto">
             <h2 className="text-30">
-              Explore all things to do in Phuket {new Date().getFullYear()}
+              Explore all available visa services for India
             </h2>
           </div>
 
-          <div className="col-auto">
+          {/* <div className="col-auto">
             <Link
               href={"/tour-list-1"}
               className="buttonArrow d-flex items-center "
@@ -48,7 +48,7 @@ export default function TourList1() {
               <span>See all</span>
               <i className="icon-arrow-top-right text-16 ml-10"></i>
             </Link>
-          </div>
+          </div> */}
         </div>
         <div className="row">
           <div className="col-xl-3 col-lg-4">
@@ -62,13 +62,13 @@ export default function TourList1() {
                   sidebarActive ? "is-active" : ""
                 } `}
               >
-                <button
+                {/* <button
                   className="accordion__button button -dark-1 bg-light-1 px-25 py-10 border-1 rounded-12"
                   onClick={() => setSidebarActive((pre) => !pre)}
                 >
                   <i className="icon-sort-down mr-10 text-16"></i>
                   Filter
-                </button>
+                </button> */}
 
                 <div
                   className="accordion__content"
@@ -153,11 +153,11 @@ export default function TourList1() {
                         </div>
                       )}
 
-                      <div className="tourCard__favorite">
+                      {/* <div className="tourCard__favorite">
                         <button className="button -accent-1 size-35 bg-white rounded-full flex-center">
                           <i className="icon-heart text-15"></i>
                         </button>
-                      </div>
+                      </div> */}
                     </div>
 
                     <div className="tourCard__content">
@@ -167,7 +167,7 @@ export default function TourList1() {
                       </div>
 
                       <h3 className="tourCard__title mt-5">
-                        <span>{elm.title}</span>
+                        <span>{elm.type}</span>
                       </h3>
 
                       <div className="d-flex items-center mt-5">
@@ -215,9 +215,7 @@ export default function TourList1() {
                       </div>
 
                       <button className="button -outline-accent-1 text-accent-1">
-                        <Link href={`/tour-single-1/${elm.id}`}>
-                          View Details
-                        </Link>
+                        <Link href={`/tour-single-1/${elm.id}`}>Select</Link>
                         <i className="icon-arrow-top-right ml-10"></i>
                       </button>
                     </div>
@@ -226,13 +224,13 @@ export default function TourList1() {
               ))}
             </div>
 
-            <div className="d-flex justify-center flex-column mt-60">
+            {/* <div className="d-flex justify-center flex-column mt-60">
               <Pagination />
 
               <div className="text-14 text-center mt-20">
                 Showing results 1-30 of 1,415
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

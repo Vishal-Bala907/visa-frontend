@@ -31,11 +31,11 @@ export default function Sidebar2() {
                   setDdActives((pre) =>
                     pre.includes("tourtype")
                       ? [...pre.filter((elm) => elm != "tourtype")]
-                      : [...pre, "tourtype"],
+                      : [...pre, "tourtype"]
                   )
                 }
               >
-                <h5 className="text-18 fw-500">Tour Type</h5>
+                <h5 className="text-18 fw-500">View</h5>
 
                 <div className="accordion__icon flex-center">
                   <i className="icon-chevron-down"></i>
@@ -55,38 +55,28 @@ export default function Sidebar2() {
                       <div key={i}>
                         <div className="d-flex items-center">
                           <div className="form-checkbox ">
-                            <input type="checkbox" name="name" />
-                            <div className="form-checkbox__mark">
-                              <div className="form-checkbox__icon">
-                                <Image
-                                  width="10"
-                                  height="8"
-                                  src="/img/icons/check.svg"
-                                  alt="icon"
-                                />
-                              </div>
-                            </div>
+                            <button className="btn btn-primary">{elm}</button>
                           </div>
 
-                          <div className="lh-11 ml-10">{elm}</div>
+                          {/* <div className="lh-11 ml-10">{elm}</div> */}
                         </div>
                       </div>
                     ))}
                   </div>
 
-                  <a
+                  {/* <a
                     href="#"
                     className="d-flex text-15 fw-500 text-accent-2 mt-15"
                   >
                     See More
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="sidebar__item">
+        {/* <div className="sidebar__item">
           <div className="accordion -simple-2 js-accordion">
             <div
               className={`accordion__item js-accordion-item-active ${
@@ -123,9 +113,9 @@ export default function Sidebar2() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div className="sidebar__item">
+        {/* <div className="sidebar__item">
           <div className="accordion -simple-2 js-accordion">
             <div
               className={`accordion__item js-accordion-item-active ${
@@ -138,7 +128,7 @@ export default function Sidebar2() {
                   setDdActives((pre) =>
                     pre.includes("duration")
                       ? [...pre.filter((elm) => elm != "duration")]
-                      : [...pre, "duration"],
+                      : [...pre, "duration"]
                   )
                 }
               >
@@ -199,7 +189,7 @@ export default function Sidebar2() {
                   setDdActives((pre) =>
                     pre.includes("language")
                       ? [...pre.filter((elm) => elm != "language")]
-                      : [...pre, "language"],
+                      : [...pre, "language"]
                   )
                 }
               >
@@ -260,7 +250,7 @@ export default function Sidebar2() {
                   setDdActives((pre) =>
                     pre.includes("rating")
                       ? [...pre.filter((elm) => elm != "rating")]
-                      : [...pre, "rating"],
+                      : [...pre, "rating"]
                   )
                 }
               >
@@ -305,9 +295,9 @@ export default function Sidebar2() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div className="sidebar__item">
+        {/* <div className="sidebar__item">
           <div className="accordion -simple-2 js-accordion">
             <div
               className={`accordion__item js-accordion-item-active ${
@@ -320,7 +310,7 @@ export default function Sidebar2() {
                   setDdActives((pre) =>
                     pre.includes("features")
                       ? [...pre.filter((elm) => elm != "features")]
-                      : [...pre, "features"],
+                      : [...pre, "features"]
                   )
                 }
               >
@@ -366,7 +356,7 @@ export default function Sidebar2() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -8,7 +8,7 @@ export default function Hero() {
         <Image
           width={1800}
           height={500}
-          src="/img/pageHeader/1.jpg"
+          src="/img/pageHeader/india.jpg"
           alt="image"
         />
         <Image
@@ -24,10 +24,10 @@ export default function Hero() {
         <div className="row justify-center">
           <div className="col-12">
             <div className="pageHeader__content">
-              <h1 className="pageHeader__title">Phuket</h1>
+              <h1 className="pageHeader__title">India</h1>
 
               <p className="pageHeader__text">
-                Explore deals, travel guides and things to do in Phuket
+                Explore deals, travel guides and things to do in india
               </p>
             </div>
           </div>
