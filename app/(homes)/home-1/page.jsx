@@ -11,6 +11,11 @@ import TourSlderOne from "@/components/homes/tours/TourSlderOne";
 import FooterOne from "@/components/layout/footers/FooterOne";
 import Header1 from "@/components/layout/header/Header1";
 
+export const metadata = {
+  title: "TravelIdea",
+  description: "TravelIdea - Travel & Tour React NextJS Template",
+};
+
 export default function Home() {
   return (
     <main>

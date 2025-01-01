@@ -5,6 +5,7 @@ import { tourData } from "@/data/tours";
 import Image from "next/image";
 import React, { useState, useEffect, useRef } from "react";
 const ddlocations = ["New York", "London", "Paris"];
+import { BsCurrencyRupee } from "react-icons/bs";
 
 export default function Tour2() {
   const [ddActive, setDdActive] = useState(false);
@@ -126,7 +127,10 @@ export default function Tour2() {
 
                     <div>
                       From{" "}
-                      <span className="text-16 fw-500">${elm.mainFee}</span>
+                      <span className="text-16 fw-500">
+                        {" "}
+                        <BsCurrencyRupee /> {elm.mainFee}
+                      </span>
                       <p
                         className="m-0 p-0"
                         style={{

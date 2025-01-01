@@ -1,4 +1,5 @@
 import FooterOne from "@/components/layout/footers/FooterOne";
+import FooterTwo from "@/components/layout/footers/FooterTwo";
 import Header1 from "@/components/layout/header/Header1";
 import Style1 from "@/components/tours/ListStyle.jsx/Style1";
 import Style2 from "@/components/tours/ListStyle.jsx/Style2";
@@ -9,8 +10,8 @@ import Style6 from "@/components/tours/ListStyle.jsx/Style6";
 import React from "react";
 
 export const metadata = {
-  title: "Tour-list-10 || ViaTour - Travel & Tour React NextJS Template",
-  description: "ViaTour - Travel & Tour React NextJS Template",
+  title: "TravelIdea",
+  description: "TravelIdea - Travel & Tour React NextJS Template",
 };
 
 export default function page() {
@@ -25,8 +26,8 @@ export default function page() {
         <Style3 />
         <Style4 />
         <Style5 />
-        <Style6 />
-        <FooterOne />
+        {/* <Style6 /> */}
+        <FooterTwo />
       </main>
     </>
   );

@@ -56,7 +56,7 @@ export default function Header1() {
               <Image
                 width="167"
                 height="32"
-                src="/img/general/logo-1.svg"
+                src="/img/general/logo.png"
                 alt="logo icon"
                 priority
               />
@@ -84,9 +84,9 @@ export default function Header1() {
           </div>
 
           <div className="header__right">
-            <Destinations />
+            {/* <Destinations />
             <Activities />
-            <Currency />
+            <Currency /> */}
             <Link href="/register" className="ml-10">
               Sign up
             </Link>

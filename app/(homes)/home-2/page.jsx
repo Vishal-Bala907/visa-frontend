@@ -15,8 +15,8 @@ import Header2 from "@/components/layout/header/Header2";
 import React from "react";
 
 export const metadata = {
-  title: "Home-2 || ViaTour - Travel & Tour React NextJS Template",
-  description: "ViaTour - Travel & Tour React NextJS Template",
+  title: "TravelIdea",
+  description: "TravelIdea - Travel & Tour React NextJS Template",
 };
 
 export default function page() {

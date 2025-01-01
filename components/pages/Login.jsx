@@ -3,18 +3,21 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import { loginHandler } from "../server/register";
+import { useRouter } from "next/navigation";
 
 export default function Login() {
   const [login, setLogin] = useState({
-    username: "",
+    userName: "",
     password: "",
   });
 
+  const router = useRouter();
   const handleLogin = (e) => {
     e.preventDefault();
     loginHandler(login)
       .then((data) => {
         localStorage.setItem("token", data);
+        router.push("tour-list-10");
       })
       .catch((err) => {
         console.log(err);
@@ -49,7 +52,7 @@ export default function Login() {
                   type="text"
                   required
                   onChange={(e) => {
-                    setLogin({ ...login, username: e.target.value });
+                    setLogin({ ...login, userName: e.target.value });
                   }}
                 />
               </div>

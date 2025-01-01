@@ -10,7 +10,7 @@ export default function Faq() {
       <div className="container">
         <div className="row justify-center text-center">
           <div className="col-auto">
-            <h2 className="text-30 md:text-24">FAQs about Phuket</h2>
+            <h2 className="text-30 md:text-24">FAQs about Visa</h2>
           </div>
         </div>
 

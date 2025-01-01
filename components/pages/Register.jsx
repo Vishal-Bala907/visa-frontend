@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 
 export default function Register() {
   const [formData, setFormData] = useState({
-    username: "",
+    userName: "",
     firstname: "",
     lastname: "",
     email: "",
@@ -54,7 +54,7 @@ export default function Register() {
                   type="text"
                   required
                   onChange={(e) => {
-                    setFormData({ ...formData, username: e.target.value });
+                    setFormData({ ...formData, userName: e.target.value });
                   }}
                   placeholder="Username"
                 />
@@ -102,7 +102,7 @@ export default function Register() {
                   type="text"
                   required
                   onChange={(e) => {
-                    setFormData({ ...formData, phone: e.target.value });
+                    setFormData({ ...formData, password: e.target.value });
                   }}
                   placeholder="password"
                 />

@@ -1,5 +1,6 @@
 import React from "react";
 import Firstpage from "./(homes)/home-10/page";
+import "../public/css/global.css";
 
 export const metadata = {
   title: "TravelIdea",

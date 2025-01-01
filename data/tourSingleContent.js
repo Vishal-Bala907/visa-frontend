@@ -77,24 +77,24 @@ export const roadmapData2 = [
 
 export const faqData = [
   {
-    question: "Can I get the refund?",
+    question: " How long does the visa process take?",
     answer:
-      "Phang Nga Bay Sea Cave Canoeing & James Bond Island w/ Buffet Lunch by Big Boat cancellation policy: For a full refund, cancel at least 24 hours in advance of the start date of the experience. Discover and book Phang Nga Bay Sea Cave Canoeing & James Bond Island w/ Buffet Lunch by Big Boat",
+      "A: Processing times vary depending on the type of visa and the destination country. Tourist visas typically take 7-15 working days, while work and student visas may take longer",
   },
   {
-    question: "Can I change the travel date?",
+    question: "What documents are required for a visa application?",
     answer:
-      "Phang Nga Bay Sea Cave Canoeing & James Bond Island w/ Buffet Lunch by Big Boat cancellation policy: For a full refund, cancel at least 24 hours in advance of the start date of the experience. Discover and book Phang Nga Bay Sea Cave Canoeing & James Bond Island w/ Buffet Lunch by Big Boat",
+      "Required documents generally include a valid passport, recent photographs, financial proofs, travel itinerary, and destination-specific documents such as invitation letters or university admissions.",
   },
   {
-    question: "When and where does the tour end?",
+    question: "Do you assist with rejected applications?",
     answer:
-      "Phang Nga Bay Sea Cave Canoeing & James Bond Island w/ Buffet Lunch by Big Boat cancellation policy: For a full refund, cancel at least 24 hours in advance of the start date of the experience. Discover and book Phang Nga Bay Sea Cave Canoeing & James Bond Island w/ Buffet Lunch by Big Boat",
+      "Yes, we analyze your rejected application and help you reapply with improved documentation and adherence to embassy guidelines.",
   },
   {
-    question: "Do you arrange airport transfers?",
+    question: "Is visa assistance available for all countries?",
     answer:
-      "Phang Nga Bay Sea Cave Canoeing & James Bond Island w/ Buffet Lunch by Big Boat cancellation policy: For a full refund, cancel at least 24 hours in advance of the start date of the experience. Discover and book Phang Nga Bay Sea Cave Canoeing & James Bond Island w/ Buffet Lunch by Big Boat",
+      "Yes, we provide visa services for a wide range of countries worldwide, including the USA, UK, Canada, European nations, and more.",
   },
 ];
 
